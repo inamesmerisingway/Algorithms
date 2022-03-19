@@ -18,7 +18,6 @@ function sumBatches(batches) {
     }
     summedBatches.push(sum);
   }
-
   return summedBatches;
 }
 
@@ -30,12 +29,10 @@ function possiblePlaceWithLessMax(prevMax, summedBatches, element, j) {
     tmp = [...summedBatches];
     tmp[i] += element;
     newMax = Math.max(...tmp);
-    console.log(tmp);
     if (Number(newMax) <= Number(prevMax)) {
       return true;
     }
   }
-
   return false;
 }
 
@@ -54,7 +51,6 @@ function doesNotIncreasesMax(element, batches, j) {
       return true;
     }
   }
-
   return true;
 }
 
@@ -111,3 +107,12 @@ function sidsurfer(arr, bins) {
 var arr = [14, 8, 3, 20, 25, 2, 2, 3, 4, 2, 1, 1, 5, 2, 2, 3, 4, 2, 1, 1, 5];
 var bins = 5;
 sidsurfer(arr, bins);
+
+// Output :
+// [
+//   [25],
+//   [20, 3, 2],
+//   [14, 4, 3, 2, 2],
+//   [8, 4, 3, 2, 1, 1],
+//   [5, 5, 2, 2, 1, 1]
+// ];
