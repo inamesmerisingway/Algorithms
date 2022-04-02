@@ -1,7 +1,7 @@
 /*
  * File: SidSurferAlgo.js
  * Author: Sidharth Gupta
- * Copyright (c) 2020 InAMesmerisingWay
+ * Copyright (c) 2022 InAMesmerisingWay
  */
 
 const max = 10051729;

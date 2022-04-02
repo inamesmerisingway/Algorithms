@@ -1,3 +1,9 @@
+/*
+ * File: SidSurferAlgo.js
+ * Author: Sidharth Gupta
+ * Copyright (c) 2022 InAMesmerisingWay
+ */
+
 totalRows = 31600;
 maxBatchSize = 10000;
 concurrency = 3;
