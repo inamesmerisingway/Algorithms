@@ -3,6 +3,7 @@ maxBatchSize = 10000;
 concurrency = 3;
 pageSize = 1000;
 
+// Sample Data Generating Function
 function generatePageRanges(totalRows, pageSize) {
   var output = [];
   for (var i = 0; i < Math.ceil(totalRows / pageSize); i++) {
